@@ -70,3 +70,56 @@
 // GERER LE SYSTÈME D'INFORMATION S5
 //-Securité du Système d'Information
 //-Données à caractère personnel
+
+const processus = [
+  {
+    idProcessus: "M1",
+    libelleProcessus: "PILOTER LA STRATEGIE",
+    idResponsable: "franck-xavier.nguessan@bridgebankgroup.com"
+  },
+  {
+    idProcessus: "M2",
+    libelleProcessus: "MANAGER LA QUALITE",
+    idResponsable: "sandrine.abe@bridgebankgroup.com"
+  },
+  {
+    idProcessus: "R1",
+    libelleProcessus: "GERER LA RELATION CLIENTELE",
+    idResponsable: "rocksanne.brou@bridgebankgroup.com"
+  },
+  // {
+  //   idProcessus: "R2",
+  //   libelleProcessus: "GERER LA  TRESORERIE",
+  //   idResponsable: "jean-eric.menzan@bridgebankgroup.com"
+  // },
+  // {
+  //   idProcessus: "R3",
+  //   libelleProcessus: "GERER LES CREDITS A LA CLIENTELS",
+  //   idResponsable: "jean-eric.menzan@bridgebankgroup.com"
+  // },
+  {
+    idProcessus: "R4",
+    libelleProcessus: "GERER LES OPERATIONS",
+    idResponsable: "laetitia.ndjaboue@bridgebankgroup.com"
+  },
+  {
+    idProcessus: "S2",
+    libelleProcessus: "GERER LES MOYENS GENERAUX",
+    idResponsable: "laetitia.ndjaboue@bridgebankgroup.com"
+  },
+  {
+    idProcessus: "S3",
+    libelleProcessus: "GERER LA SECURITE",
+    idResponsable: "christophe.seuneu@bridgebankgroup.com"
+  },
+  {
+    idProcessus: "S4",
+    libelleProcessus: "GERER LES RESSOURCES HUMAINES",
+    idResponsable: "edwige.yao@bridgebankgroup.com"
+  },
+  {
+    idProcessus: "S5",
+    libelleProcessus: "GERER LE SYSTÈME D'INFORMATION",
+    idResponsable: "brice.bleguin@bridgebankgroup.com"
+  }
+];

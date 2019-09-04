@@ -2,7 +2,7 @@ import React from "react";
 
 export default class DynamicListFilter extends React.Component {
   render() {
-    const familleList = [
+    const familleProcessus = [
       //M1
       {
         idProcessus: "M1",
@@ -86,26 +86,26 @@ export default class DynamicListFilter extends React.Component {
         idFamille: "S14"
       },
       //R3
-      {
-        idProcessus: "R3",
-        libelleFamille: "Données à caractère personnel",
-        idFamille: "S11"
-      },
-      {
-        idProcessus: "R3",
-        libelleFamille: "Planification commerciale",
-        idFamille: "S9"
-      },
-      {
-        idProcessus: "R3",
-        libelleFamille: "Objectifs",
-        idFamille: "S13"
-      },
-      {
-        idProcessus: "R3",
-        libelleFamille: "Autres",
-        idFamille: "S14"
-      },
+      // {
+      //   idProcessus: "R3",
+      //   libelleFamille: "Données à caractère personnel",
+      //   idFamille: "S11"
+      // },
+      // {
+      //   idProcessus: "R3",
+      //   libelleFamille: "Planification commerciale",
+      //   idFamille: "S9"
+      // },
+      // {
+      //   idProcessus: "R3",
+      //   libelleFamille: "Objectifs",
+      //   idFamille: "S13"
+      // },
+      // {
+      //   idProcessus: "R3",
+      //   libelleFamille: "Autres",
+      //   idFamille: "S14"
+      // },
       //R4
       {
         idProcessus: "R4",
@@ -157,11 +157,9 @@ export default class DynamicListFilter extends React.Component {
         libelleFamille: "Autres",
         idFamille: "S14"
       },
-
       //S1
-
+      //-------//
       //S2
-
       {
         idProcessus: "S2",
         libelleFamille: "Gestion des stocks ",
