@@ -72,6 +72,12 @@
 //-Données à caractère personnel
 
 const processus = [
+  //blanck
+  {
+    idProcessus: "",
+    libelleProcessus: "",
+    idResponsable: ""
+  },
   {
     idProcessus: "M1",
     libelleProcessus: "PILOTER LA STRATEGIE",
@@ -95,13 +101,18 @@ const processus = [
   // {
   //   idProcessus: "R3",
   //   libelleProcessus: "GERER LES CREDITS A LA CLIENTELS",
-  //   idResponsable: "jean-eric.menzan@bridgebankgroup.com"
+  //   idResponsable: "norbert.kouame@bridgebankgroup.com"
   // },
   {
     idProcessus: "R4",
     libelleProcessus: "GERER LES OPERATIONS",
     idResponsable: "laetitia.ndjaboue@bridgebankgroup.com"
   },
+  // {
+  //   idProcessus: "S1",
+  //   libelleProcessus: "GERER LES FINANCES",
+  //   idResponsable: "dominique.kadjo@bridgebankgroup.com"
+  // },
   {
     idProcessus: "S2",
     libelleProcessus: "GERER LES MOYENS GENERAUX",
@@ -123,3 +134,4 @@ const processus = [
     idResponsable: "brice.bleguin@bridgebankgroup.com"
   }
 ];
+export default processus;

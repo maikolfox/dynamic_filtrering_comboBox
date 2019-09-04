@@ -32,7 +32,6 @@ class App extends React.Component {
 
   render() {
     const { countries } = this.state;
-
     let countriesList =
       countries.length > 0 &&
       countries.map((item, i) => {
